@@ -1,0 +1,25 @@
+{
+    "payload": {
+        "NextToken": "2YgYW55IGNhcm5hbCBwbGVhcEXAMPLE",
+        "FinancialEventGroupList": [
+            {
+                "FinancialEventGroupId": "22YgYW55IGNhcm5hbCBwbGVhEXAMPLE",
+                "ProcessingStatus": "Closed",
+                "FundTransferStatus": "Succeeded",
+                "OriginalTotal": {
+                    "CurrencyCode": "USD",
+                    "CurrencyAmount": 19.00
+                },
+                "FundTransferDate": "2023-09-13T19:15:14Z",
+                "TraceId": "128311029381HSADJEXAMPLE",
+                "AccountTail": "000",
+                "BeginningBalance": {
+                    "CurrencyCode": "USD",
+                    "CurrencyAmount": 0.0
+                },
+                "FinancialEventGroupStart": "2023-08-29T19:10:44Z",
+                "FinancialEventGroupEnd": "2023-09-12T19:10:44Z"
+            }
+        ]
+    }
+}

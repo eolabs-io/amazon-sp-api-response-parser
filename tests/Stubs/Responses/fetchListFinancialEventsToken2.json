@@ -1,0 +1,412 @@
+{
+    "payload": {
+        "FinancialEvents": {
+            "ShipmentEventList": [
+                {
+                    "AmazonOrderId": "105-0457358-1245022",
+                    "SellerOrderId": "105-0457358-1245022",
+                    "MarketplaceName": "Amazon.com",
+                    "PostedDate": "2024-01-01T00:19:17Z",
+                    "ShipmentItemList": [
+                        {
+                            "SellerSKU": "DU-WB60-C18V",
+                            "OrderItemId": "91510050614801",
+                            "QuantityShipped": 1,
+                            "ItemChargeList": [
+                                {
+                                    "ChargeType": "Principal",
+                                    "ChargeAmount": {
+                                        "CurrencyCode": "USD",
+                                        "CurrencyAmount": 28.88
+                                    }
+                                },
+                                {
+                                    "ChargeType": "Tax",
+                                    "ChargeAmount": {
+                                        "CurrencyCode": "USD",
+                                        "CurrencyAmount": 0.0
+                                    }
+                                },
+                                {
+                                    "ChargeType": "GiftWrap",
+                                    "ChargeAmount": {
+                                        "CurrencyCode": "USD",
+                                        "CurrencyAmount": 0.0
+                                    }
+                                },
+                                {
+                                    "ChargeType": "GiftWrapTax",
+                                    "ChargeAmount": {
+                                        "CurrencyCode": "USD",
+                                        "CurrencyAmount": 0.0
+                                    }
+                                },
+                                {
+                                    "ChargeType": "ShippingCharge",
+                                    "ChargeAmount": {
+                                        "CurrencyCode": "USD",
+                                        "CurrencyAmount": 0.0
+                                    }
+                                },
+                                {
+                                    "ChargeType": "ShippingTax",
+                                    "ChargeAmount": {
+                                        "CurrencyCode": "USD",
+                                        "CurrencyAmount": 0.0
+                                    }
+                                }
+                            ],
+                            "ItemFeeList": [
+                                {
+                                    "FeeType": "FBAPerOrderFulfillmentFee",
+                                    "FeeAmount": {
+                                        "CurrencyCode": "USD",
+                                        "CurrencyAmount": 0.0
+                                    }
+                                },
+                                {
+                                    "FeeType": "FBAPerUnitFulfillmentFee",
+                                    "FeeAmount": {
+                                        "CurrencyCode": "USD",
+                                        "CurrencyAmount": -4.16
+                                    }
+                                },
+                                {
+                                    "FeeType": "FBAWeightBasedFee",
+                                    "FeeAmount": {
+                                        "CurrencyCode": "USD",
+                                        "CurrencyAmount": 0.0
+                                    }
+                                },
+                                {
+                                    "FeeType": "Commission",
+                                    "FeeAmount": {
+                                        "CurrencyCode": "USD",
+                                        "CurrencyAmount": -4.33
+                                    }
+                                },
+                                {
+                                    "FeeType": "FixedClosingFee",
+                                    "FeeAmount": {
+                                        "CurrencyCode": "USD",
+                                        "CurrencyAmount": 0.0
+                                    }
+                                },
+                                {
+                                    "FeeType": "GiftwrapChargeback",
+                                    "FeeAmount": {
+                                        "CurrencyCode": "USD",
+                                        "CurrencyAmount": 0.0
+                                    }
+                                },
+                                {
+                                    "FeeType": "ShippingChargeback",
+                                    "FeeAmount": {
+                                        "CurrencyCode": "USD",
+                                        "CurrencyAmount": 0.0
+                                    }
+                                },
+                                {
+                                    "FeeType": "VariableClosingFee",
+                                    "FeeAmount": {
+                                        "CurrencyCode": "USD",
+                                        "CurrencyAmount": 0.0
+                                    }
+                                }
+                            ],
+                            "ItemTaxWithheldList": [
+                                {
+                                    "TaxCollectionModel": "MarketplaceFacilitator",
+                                    "TaxesWithheld": []
+                                }
+                            ],
+                            "PromotionList": [
+                                {
+                                    "PromotionType": "PromotionMetaDataDefinitionValue",
+                                    "PromotionId": "PLM-8b36cfee-d675-4451-ba00-98143f084339",
+                                    "PromotionAmount": {
+                                        "CurrencyCode": "USD",
+                                        "CurrencyAmount": 0.0
+                                    }
+                                },
+                                {
+                                    "PromotionType": "PromotionMetaDataDefinitionValue",
+                                    "PromotionId": "PLM-8b36cfee-d675-4451-ba00-98143f084339",
+                                    "PromotionAmount": {
+                                        "CurrencyCode": "USD",
+                                        "CurrencyAmount": 0.0
+                                    }
+                                },
+                                {
+                                    "PromotionType": "PromotionMetaDataDefinitionValue",
+                                    "PromotionId": "PLM-8b36cfee-d675-4451-ba00-98143f084339",
+                                    "PromotionAmount": {
+                                        "CurrencyCode": "USD",
+                                        "CurrencyAmount": 0.0
+                                    }
+                                },
+                                {
+                                    "PromotionType": "PromotionMetaDataDefinitionValue",
+                                    "PromotionId": "PLM-8b36cfee-d675-4451-ba00-98143f084339",
+                                    "PromotionAmount": {
+                                        "CurrencyCode": "USD",
+                                        "CurrencyAmount": 0.0
+                                    }
+                                },
+                                {
+                                    "PromotionType": "PromotionMetaDataDefinitionValue",
+                                    "PromotionId": "PLM-8b36cfee-d675-4451-ba00-98143f084339",
+                                    "PromotionAmount": {
+                                        "CurrencyCode": "USD",
+                                        "CurrencyAmount": 0.0
+                                    }
+                                },
+                                {
+                                    "PromotionType": "PromotionMetaDataDefinitionValue",
+                                    "PromotionId": "PLM-8b36cfee-d675-4451-ba00-98143f084339",
+                                    "PromotionAmount": {
+                                        "CurrencyCode": "USD",
+                                        "CurrencyAmount": 0.0
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "AmazonOrderId": "111-6299640-3868240",
+                    "SellerOrderId": "111-6299640-3868240",
+                    "MarketplaceName": "Amazon.com",
+                    "PostedDate": "2024-01-01T00:20:55Z",
+                    "ShipmentItemList": [
+                        {
+                            "SellerSKU": "1T-KONV-LXJN",
+                            "OrderItemId": "91103300725641",
+                            "QuantityShipped": 1,
+                            "ItemChargeList": [
+                                {
+                                    "ChargeType": "Principal",
+                                    "ChargeAmount": {
+                                        "CurrencyCode": "USD",
+                                        "CurrencyAmount": 28.88
+                                    }
+                                },
+                                {
+                                    "ChargeType": "Tax",
+                                    "ChargeAmount": {
+                                        "CurrencyCode": "USD",
+                                        "CurrencyAmount": 0.0
+                                    }
+                                },
+                                {
+                                    "ChargeType": "GiftWrap",
+                                    "ChargeAmount": {
+                                        "CurrencyCode": "USD",
+                                        "CurrencyAmount": 0.0
+                                    }
+                                },
+                                {
+                                    "ChargeType": "GiftWrapTax",
+                                    "ChargeAmount": {
+                                        "CurrencyCode": "USD",
+                                        "CurrencyAmount": 0.0
+                                    }
+                                },
+                                {
+                                    "ChargeType": "ShippingCharge",
+                                    "ChargeAmount": {
+                                        "CurrencyCode": "USD",
+                                        "CurrencyAmount": 0.0
+                                    }
+                                },
+                                {
+                                    "ChargeType": "ShippingTax",
+                                    "ChargeAmount": {
+                                        "CurrencyCode": "USD",
+                                        "CurrencyAmount": 0.0
+                                    }
+                                }
+                            ],
+                            "ItemFeeList": [
+                                {
+                                    "FeeType": "FBAPerOrderFulfillmentFee",
+                                    "FeeAmount": {
+                                        "CurrencyCode": "USD",
+                                        "CurrencyAmount": 0.0
+                                    }
+                                },
+                                {
+                                    "FeeType": "FBAPerUnitFulfillmentFee",
+                                    "FeeAmount": {
+                                        "CurrencyCode": "USD",
+                                        "CurrencyAmount": -4.16
+                                    }
+                                },
+                                {
+                                    "FeeType": "FBAWeightBasedFee",
+                                    "FeeAmount": {
+                                        "CurrencyCode": "USD",
+                                        "CurrencyAmount": 0.0
+                                    }
+                                },
+                                {
+                                    "FeeType": "Commission",
+                                    "FeeAmount": {
+                                        "CurrencyCode": "USD",
+                                        "CurrencyAmount": -4.33
+                                    }
+                                },
+                                {
+                                    "FeeType": "FixedClosingFee",
+                                    "FeeAmount": {
+                                        "CurrencyCode": "USD",
+                                        "CurrencyAmount": 0.0
+                                    }
+                                },
+                                {
+                                    "FeeType": "GiftwrapChargeback",
+                                    "FeeAmount": {
+                                        "CurrencyCode": "USD",
+                                        "CurrencyAmount": 0.0
+                                    }
+                                },
+                                {
+                                    "FeeType": "ShippingChargeback",
+                                    "FeeAmount": {
+                                        "CurrencyCode": "USD",
+                                        "CurrencyAmount": 0.0
+                                    }
+                                },
+                                {
+                                    "FeeType": "VariableClosingFee",
+                                    "FeeAmount": {
+                                        "CurrencyCode": "USD",
+                                        "CurrencyAmount": 0.0
+                                    }
+                                }
+                            ],
+                            "ItemTaxWithheldList": [
+                                {
+                                    "TaxCollectionModel": "MarketplaceFacilitator",
+                                    "TaxesWithheld": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "ShipmentSettleEventList": [],
+            "RefundEventList": [
+                {
+                    "ShipmentFeeList":[
+                        {
+                            "FeeType": "Commission",
+                            "FeeAmount": {
+                                "CurrencyAmount": 4.99,
+                                "CurrencyCode": "USD"
+                            },
+                            "FeeComponent": {
+                                "FeeType": "Subscription",
+                                "FeeAmount": {
+                                    "CurrencyAmount":3.99,
+                                    "CurrencyCode": "USD"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ],
+            "GuaranteeClaimEventList": [],
+            "ChargebackEventList": [],
+            "PayWithAmazonEventList": [],
+            "ServiceProviderCreditEventList": [],
+            "RetrochargeEventList": [],
+            "RentalTransactionEventList": [],
+            "PerformanceBondRefundEventList": [],
+            "ProductAdsPaymentEventList": [
+                {
+                    "PostedDate": "2017-01-11T13:17:15.000Z",
+                    "TransactionType": "Charge",
+                    "InvoiceId": "TR1W0B4YB-6",
+                    "baseValue": {
+                        "CurrencyAmount": 115.34,
+                        "CurrencyCode": "USD"
+                    },
+                    "taxValue": {
+                        "CurrencyAmount":21.91,
+                        "CurrencyCode": "USD"
+                    },
+                    "transactionValue": {
+                        "CurrencyAmount": 137.25,
+                        "CurrencyCode": "USD"
+                    }
+                }
+            ],
+            "ServiceFeeEventList": [],
+            "SellerDealPaymentEventList": [
+                {
+                    "PostedDate": "2016-11-21T16:18:15.000Z",
+                    "DealDescription": "test fees",
+                    "DealId": "fec11097c1f4379426a7de68bf938b684f677de2",
+                    "EventType": "SellerDealComplete",
+                    "FeeType": "RunLightningDealFee",
+                    "FeeAmount" : {
+                        "CurrencyAmount": 16.38,
+                        "CurrencyCode": "USD"
+                    },
+                    "TaxAmount": {
+                        "CurrencyAmount": 3.18,
+                        "CurrencyCode":"USD"
+                    }
+                }
+            ],
+            "DebtRecoveryEventList": [],
+            "LoanServicingEventList": [],
+            "AdjustmentEventList": [],
+            "SAFETReimbursementEventList": [],
+            "SellerReviewEnrollmentPaymentEventList": [],
+            "FBALiquidationEventList": [],
+            "CouponPaymentEventList": [
+                {
+                    "PostedDate": "2018-05-08T13:17:15.000Z",
+                    "CouponId": "AWURESTX",
+                    "SellerCouponDescription": "Seller_Coupon_Description",
+                    "ClipOrRedemptionCount": 6,
+                    "PaymentEventId": "AIDSJ434DSA",
+                    "FeeComponent": {
+                        "FeeType": "ImagingServicesFee",
+                        "FeeAmount": {
+                            "CurrencyCode": "USD",
+                            "CurrencyAmount": 1.09
+                        }
+                    },
+                    "ChargeComponent": {
+                        "ChargeType": "CODItemCharge",
+                        "ChargeAmount": {
+                            "CurrencyCode": "USD",
+                            "CurrencyAmount": 1.09
+                        }
+                    },
+                    "TotalAmount": {
+                        "CurrencyCode": "USD",
+                        "CurrencyAmount": 2.18
+                    }
+                }
+            ],
+            "ImagingServicesFeeEventList": [],
+            "NetworkComminglingTransactionEventList": [],
+            "AffordabilityExpenseEventList": [],
+            "AffordabilityExpenseReversalEventList": [],
+            "RemovalShipmentEventList": [],
+            "RemovalShipmentAdjustmentEventList": [],
+            "TrialShipmentEventList": [],
+            "TDSReimbursementEventList": [],
+            "AdhocDisbursementEventList": [],
+            "TaxWithholdingEventList": [],
+            "ChargeRefundEventList": [],
+            "FailedAdhocDisbursementEventList": [],
+            "ValueAddedServiceChargeEventList": [],
+            "CapacityReservationBillingEventList": []
+        }
+    }
+}
