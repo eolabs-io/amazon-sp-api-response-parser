@@ -28,12 +28,23 @@ abstract class JsonParser implements Parser
     private function parse(): Collection
     {
         $json = $this->getJson();
+
+        $errorsAccessor = $this->getErrorsAccessor();
+        $hasErrors = array_key_exists($errorsAccessor, $json);
         $contentAccessor = $this->getContentAccessor();
-        $results = data_get($json, $contentAccessor);
+
+        $results = ($hasErrors)
+            ? $json
+            : data_get($json, $contentAccessor);
 
         throw_if(! filled($results), AmazonSpApiResponseParserException::class);
 
         return collect($results);
+    }
+
+    public function getErrorsAccessor(): string
+    {
+        return 'errors';
     }
 
     public function getContentAccessor(): string
